@@ -1,0 +1,67 @@
+:root{
+    --black: #111111;
+    --yellow: #e9b454;
+    --titulo: "Radio Canada Big", sans-serif;
+    --fonte-corpo: "Fraunces", serif;
+}
+
+.navbar{
+    background-color: var(--black);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: var(--black);
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+#carousel{
+    max-width: 600px;
+    margin: auto;
+}
+
+#sobre-a-loja{
+    font-family: var(--titulo);
+}
+
+.title{
+    color: var(--yellow);
+}
+
+#produtos{
+    background-color: #e9b55419;
+}
+
+#produtos .nav .nav-link.active{
+    background-color: #fff;
+    color: #e9b454;
+}
+
+#produtos .nav .nav-link{
+    color: var(--black);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.btn,
+.btn:hover{
+    background-color: #e9b454;
+    color: #fff;
+}
